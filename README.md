@@ -1,5 +1,3 @@
-# Rare Canvas
+# Rare Canvas - NFT Marketplace UI
 
-## Find Your NFT Dream Creation
-
-NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.
+Welcome to our NFT Marketplace UI! Explore, buy, and sell art from 20,000+ diverse NFT artists. Whether you're an enthusiast, collector, or artist, our platform offers a seamless way to engage with the vibrant world of NFT art.
