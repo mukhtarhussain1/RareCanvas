@@ -9,8 +9,10 @@ import {
 } from "../../assets";
 import CustomButton from "../CustomButton/CustomButton";
 import styles from "./HeroSection.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.heroSectionContainer}>
       <div className={styles.topContentWrapper}>
@@ -29,7 +31,11 @@ const HeroSection = () => {
           </p>
 
           <div className={styles.detailsWrapper}>
-            <CustomButton title="Get Started" icon={rocketLaunch} />
+            <CustomButton
+              title="Get Started"
+              icon={rocketLaunch}
+              onClick={() => navigate("/404")}
+            />
 
             <div className={styles.details}>
               <div className={styles.detail}>
@@ -49,14 +55,20 @@ const HeroSection = () => {
         </div>
         <div className={styles.imageWrapper}>
           <div className={styles.image}>
-            <img className={styles.image2Icon} alt="" src={header3} />
-            <img
-              className={styles.image3Icon}
-              loading="eager"
-              alt=""
-              src={header2}
-            />
-            <img className={styles.image1Icon} alt="" src={header1} />
+            <LazyLoad>
+              <img className={styles.image2Icon} alt="" src={header3} />
+            </LazyLoad>
+            <LazyLoad>
+              <img
+                className={styles.image3Icon}
+                loading="eager"
+                alt=""
+                src={header2}
+              />
+            </LazyLoad>
+            <LazyLoad>
+              <img className={styles.image1Icon} alt="" src={header1} />
+            </LazyLoad>
           </div>
         </div>
       </div>

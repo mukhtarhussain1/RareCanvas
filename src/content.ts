@@ -48,6 +48,10 @@ import {
 
 export const nftCategories = [
   {
+    id: "all",
+    label: "All",
+  },
+  {
     id: "1",
     label: "Artificial intelligent",
   },
@@ -408,15 +412,15 @@ export const footerData = [
     links: [
       {
         name: "Buy Product",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Sell Product",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Our Creator",
-        path: "/",
+        path: "/404",
       },
     ],
   },
@@ -425,15 +429,15 @@ export const footerData = [
     links: [
       {
         name: "About Us",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Event",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Tutorial",
-        path: "/",
+        path: "/404",
       },
     ],
   },
@@ -442,15 +446,15 @@ export const footerData = [
     links: [
       {
         name: "Media",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Blog",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Pricing",
-        path: "/",
+        path: "/404",
       },
     ],
   },
@@ -459,15 +463,15 @@ export const footerData = [
     links: [
       {
         name: "Terms",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Privacy",
-        path: "/",
+        path: "/404",
       },
       {
         name: "Support",
-        path: "/",
+        path: "/404",
       },
     ],
   },

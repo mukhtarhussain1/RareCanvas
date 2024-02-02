@@ -8,7 +8,7 @@
     @include flex(row, space-between, center);
     margin-top: 50px;
     .contentWrapper {
-      width: 40%;
+      width: 45%;
 
       .headingWrapper {
         .heading {
@@ -100,7 +100,7 @@
 
   .gradientBG {
     position: absolute;
-    top: -105px;
+    top: -130px;
     left: 0;
     height: 800px;
     width: 800px;
