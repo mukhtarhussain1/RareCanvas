@@ -10,7 +10,6 @@ import {
   figmaIcon,
   switchBg,
   switchBgMobile,
-  upworkIcon,
 } from "../../assets";
 import { ReactSVG } from "react-svg";
 import styles from "./Page404.module.scss";
@@ -39,7 +38,7 @@ const Page404 = () => {
             </button>
           </Link>
 
-          <Link
+          {/* <Link
             to="https://www.upwork.com/freelancers/bukhtyarh"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +46,7 @@ const Page404 = () => {
             <button className={styles.upworkButton}>
               <ReactSVG src={upworkIcon} /> <span>Talk to me</span>
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <Link to="/" className={styles.goToHome}>
